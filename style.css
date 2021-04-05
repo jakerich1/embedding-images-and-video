@@ -215,3 +215,16 @@ h2 {
     font-size: 10px;
     color: grey;
 }
+
+@media only screen and (max-width: 900px) {
+    /* tablets and desktop */
+
+    main {
+        display: block;
+    }
+
+    aside {
+        display: none;
+    }
+
+}
